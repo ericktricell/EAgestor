@@ -1,0 +1,14 @@
+tirar borda de uma table itext
+getDefaultCell().setBorder(PdfPCell.NO_BORDER); // Aqui eu tiro a borda
+
+versão para teste inicial
+
+em atualizar valores bloquear as informações dos mesmos OK
+
+em caixa adicionar a emissão do fechamento do dia
+
+colocar informação das compras pagas
+
+em compras nao adicionou os produtos a serem comprados OK
+
+Adicionar informações de serviços

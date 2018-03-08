@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost/eagestor</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">false</property>
+    <property name="hbm2ddl.auto">update</property>
+    <mapping class="br.com.eagestor.domain.Compraprodutos"/>
+    <mapping class="br.com.eagestor.domain.Departamento"/>
+    <mapping class="br.com.eagestor.domain.Pedidoprodutos"/>
+    <mapping class="br.com.eagestor.domain.Compras"/>
+    <mapping class="br.com.eagestor.domain.Pedidos"/>
+    <mapping class="br.com.eagestor.domain.Recebimento"/>
+    <mapping class="br.com.eagestor.domain.Fornecedor"/>
+    <mapping class="br.com.eagestor.domain.Funcionario"/>
+    <mapping class="br.com.eagestor.domain.Categoria"/>
+    <mapping class="br.com.eagestor.domain.Vendaproduto"/>
+    <mapping class="br.com.eagestor.domain.Usuario"/>
+    <mapping class="br.com.eagestor.domain.Produtos"/>
+    <mapping class="br.com.eagestor.domain.Contato"/>
+    <mapping class="br.com.eagestor.domain.Caixadodia"/>
+    <mapping class="br.com.eagestor.domain.Endereco"/>
+    <mapping class="br.com.eagestor.domain.Empresa"/>
+    <mapping class="br.com.eagestor.domain.Cliente"/>
+    <mapping class="br.com.eagestor.domain.Despesas"/>
+    <mapping class="br.com.eagestor.domain.Medidas"/>
+  </session-factory>
+</hibernate-configuration>
